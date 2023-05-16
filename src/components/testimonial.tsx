@@ -1,4 +1,4 @@
-import TestimonialImage from '../assets/imageTestimonial.png' 
+import TestimonialImage from '/imageTestimonial.png' 
 
 export const Testimonial: React.FC = () => {
     return (
