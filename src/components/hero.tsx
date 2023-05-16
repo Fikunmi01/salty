@@ -19,13 +19,13 @@ export const Hero: React.FC = () => {
                         </span>
                         {/* alt="calendar icon" */}
 
-                            <img src="../src/assets/Icon.png" alt="search icon" className="shadow-2xl rounded-2xl"/>
+                            <img src="/assets/Icon.png" alt="search icon" className="shadow-2xl rounded-2xl"/>
                         
                     </div>
                 </div>
 
                 <div>
-                    <img src="../src/assets/heroImg.png" className="w-full" alt="hero img" />
+                    <img src="/assets/heroImg.png" className="w-full" alt="hero img" />
                 </div>
 
             </div>
