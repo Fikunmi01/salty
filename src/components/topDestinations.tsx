@@ -1,58 +1,58 @@
-// interface TopDestinations {
-//     id: number,
-//     imgSrc: string,
-//     rating: number,
-//     Address: string,
-//     city: string
-// }
+interface TopDestinations {
+    id: number,
+    imgSrc: string,
+    rating: number,
+    Address: string,
+    city: string
+}
 
-// export const DestinationArray: TopDestinations[] = [
-//     {
-//         id: 1,
-//         imgSrc: "../src/assets/Rectangle4389.png",
-//         rating: 3.5,
-//         Address: "Vietnam",
-//         city: "Worefall"
-//     },
-//     {
-//         id: 2,
-//         imgSrc: "../src/assets/Rectangle4390.png",
-//         rating: 3.5,
-//         Address: "Vietnam",
-//         city: "Worefall"
-//     },
-//     {
-//         id: 3,
-//         imgSrc: "../src/assets/Rectangle4391.png",
-//         rating: 3.5,
-//         Address: "Vietnam",
-//         city: "Worefall"
-//     },
-//     {
-//         id: 4,
-//         imgSrc: "../src/assets/Rectangle4392.png",
-//         rating: 3.5,
-//         Address: "Vietnam",
-//         city: "Worefall"
-//     },
-//     {
-//         id: 5,
-//         imgSrc: "../src/assets/Rectangle4394.png",
-//         rating: 3.5,
-//         Address: "Vietnam",
-//         city: "Worerfall"
-//     },
-//     {
-//         id: 6,
-//         imgSrc: "../src/assets/Rectangle4395.png",
-//         rating: 3.5,
-//         Address: "Vietnam",
-//         city: "Worerfall"
-//     },
-// ]
+export const DestinationArray: TopDestinations[] = [
+    {
+        id: 1,
+        imgSrc: "../src/assets/Rectangle4389.png",
+        rating: 3.5,
+        Address: "Vietnam",
+        city: "Worefall"
+    },
+    {
+        id: 2,
+        imgSrc: "../src/assets/Rectangle4390.png",
+        rating: 3.5,
+        Address: "Vietnam",
+        city: "Worefall"
+    },
+    {
+        id: 3,
+        imgSrc: "../src/assets/Rectangle4391.png",
+        rating: 3.5,
+        Address: "Vietnam",
+        city: "Worefall"
+    },
+    {
+        id: 4,
+        imgSrc: "../src/assets/Rectangle4392.png",
+        rating: 3.5,
+        Address: "Vietnam",
+        city: "Worefall"
+    },
+    {
+        id: 5,
+        imgSrc: "../src/assets/Rectangle4394.png",
+        rating: 3.5,
+        Address: "Vietnam",
+        city: "Worerfall"
+    },
+    {
+        id: 6,
+        imgSrc: "../src/assets/Rectangle4395.png",
+        rating: 3.5,
+        Address: "Vietnam",
+        city: "Worerfall"
+    },
+]
 
 // export const TopDestination: React.FC<{ destinations: TopDestinations[] }> = ({ destinations }) => {
-    export const TopDestination: React.FC = () => {
+    export const TopDestination: React.FC = ()=> {
     return (
         <>
             <div className="bg-offWhite lg:px-32 md:px-6 lg:pt-20 lg:py-20 py-2">
@@ -71,7 +71,7 @@
                 <div className="flex mb-5 relative px-2">
                     <div className="flex md:gap-3 lg:gap-5 gap-1 mr-1">
                         <span className="w-full flex gap-2 md:gap-5 flex-col">
-                            <img src="/assets/Rectangle4389.png" className="w-40 h-full lg:h-full lg:w-full" alt="first png" />
+                            <img src="../src/assets/Rectangle4389.png" className="w-40 h-full lg:h-full lg:w-full" alt="first png" />
 
                             <div className="absolute hidden md:flex flex-col lg:gap-28 text-white lg:px-5 md:gap-24 md:left-4 md:top-60 lg:pt-5 lg:mt-10">
                                 <p className="md:px-3 px-2 py-1 w-fit font-serif text-sm md:py-1 font-medium text-darkGray bg-white rounded-2xl">3.5</p>
@@ -82,10 +82,10 @@
                                 </span>
                             </div>
 
-                            <img src="/assets/Rectangle4390.png" className="w-36 lg:w-full h-full" alt="second png" />
+                            <img src="../src/assets/Rectangle4390.png" className="w-36 lg:w-full h-full" alt="second png" />
                         </span>
 
-                        <img src="/assets/Rectangle4391.png" alt="third png" className="relative w-3/5 lg:w-full h-full"/>
+                        <img src="../src/assets/Rectangle4391.png" alt="third png" className="relative w-3/5 lg:w-full h-full"/>
 
                         <div className="absolute hidden md:flex flex-col md:gap-20 lg:gap-32 text-white px-5 pt-5">
                             <p className="md:px-3 w-fit font-serif md:text-sm text-base md:py-1 font-medium text-darkGray bg-white rounded-2xl">3.5</p>
@@ -107,7 +107,7 @@
                     </div>
 
                     <div className=" md:ml-3 flex flex-col gap-1 md:gap-5 relative">
-                        <img src="/assets/Rectangle4392.png" alt="fourth png" className="w-96 lg:w-full h-full"/>
+                        <img src="../src/assets/Rectangle4392.png" alt="fourth png" className="w-96 lg:w-full h-full"/>
 
                         <div className="absolute hidden md:flex flex-col md:gap-16 lg:gap-28 text-white px-5 pt-5">
                             <p className="md:px-3 w-fit font-serif text-sm px-2 md:py-1 font-medium text-white bg-darkGray rounded-2xl">3.5</p>
@@ -120,7 +120,7 @@
 
                         <span className="inline-flex gap-1 md:gap-2">
 
-                            <img src="/assets/Rectangle4394.png" className="h-fit w-2/4 lg:w-full" alt="fifth png" />
+                            <img src="../src/assets/Rectangle4394.png" className="h-fit w-2/4 lg:w-full" alt="fifth png" />
 
                             <div className="absolute md:flex flex-col lg:gap-32 text-white px-5 pt-5 hidden">
                                 <p className="md:px-3 w-fit font-serif text-sm px-2 md:py-1 font-medium text-white bg-darkGray rounded-2xl">3.5</p>
@@ -130,7 +130,7 @@
                                     <p className="text-sm ">Worefall</p>
                                 </span>
                             </div>
-                            <img src="/assets/Rectangle4395.png" className="h-full lg:h-fit w-2/4 lg:w-full" alt='sixth png' />
+                            <img src="../src/assets/Rectangle4395.png" className="h-full lg:h-fit w-2/4 lg:w-full" alt='sixth png' />
 
 
                             <div className="absolute md:flex hidden flex-col lg:gap-32 text-white md:right-12 md:gap-28 lg:right-40 pt-5">

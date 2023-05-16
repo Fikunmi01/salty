@@ -14,21 +14,21 @@ export const PopularDestination: React.FC = () => {
     const destinationData: PopDestination[] = [
         {
             id: 1,
-            imgSrc: "/assets/image44.png",
+            imgSrc: "../src/assets/image44.png",
             title: "Mountain Hiking Tour",
             description: "Mountain Hiking Tour",
             price: 89,
         },
         {
             id: 2,
-            imgSrc: "/assets/image45.png",
+            imgSrc: "../src/assets/image45.png",
             title: "Machu Picchu, Peru",
             description: "Machu Picchu, Peru",
             price: 99,
         },
         {
             id: 3,
-            imgSrc: "/assets/image46.png",
+            imgSrc: "../src/assets/image46.png",
             title: "The Grand Canyon, Arizona",
             description: "Mountain Hiking Tour",
             price: 89,
@@ -41,8 +41,8 @@ export const PopularDestination: React.FC = () => {
                 <div className=" flex justify-between items-center mb-8">
                     <h1 className="font-serif font-semibold text-darkGray text-3xl lg:text-6xl lg:w-1/2 leading-tight md:text-4xl md:w-1/2 md:leading-tight lg:leading-none">Find Popular Destination</h1>
                     <span className="flex gap-x-3 mr-5 md:gap-x-6">
-                        <img src="/assets/arrowLeft.png" className="w-10 md:w-full" alt="arrow icon" />
-                        <img src="/assets/arrowRight.png" className="w-10 md:w-full" alt="arrow icon" />
+                        <img src="../src/assets/arrowLeft.png" className="w-10 md:w-full" alt="arrow icon" />
+                        <img src="../src/assets/arrowRight.png" className="w-10 md:w-full" alt="arrow icon" />
                     </span>
                 </div>
 

@@ -47,7 +47,7 @@ export const Footer: React.FC = () => {
         <>
             <div className="bg-offWhite relative pb-20">
                 <div className="lg:mx-32 mx-5 lg:py-10 rounded-2xl bg-cream h-80 mb-40 relative">
-                    <img src="/assets/Intersect.png" alt="" className="absolute md:top-0 md:h-96 h-full w-fit" />
+                    <img src="../src/assets/Intersect.png" alt="" className="absolute md:top-0 md:h-96 h-full w-fit" />
                     <h1 className="text-center font-sans text-3xl w-4/5 m-auto lg:text-4xl leading-normal text-darkGray lg:leading-loose pt-10 font-semibold">Sign up to our newsletter</h1>
                     <p className="text-center pb-7 text-lightGray font-serif text-base w-4/5 lg:w-5/12 font-normal m-auto">Receive latest news, update, and many other things every week.</p>
 
@@ -60,16 +60,16 @@ export const Footer: React.FC = () => {
                 <div className="md:px-10 lg:px-32 px-3 flex flex-col md:flex md:flex-col lg:flex-row md:gap-10 lg:gap-60 ">
                     <div>
                         <span className="flex items-center gap-2 mb-4">
-                            <img src="/assets/Logo.png" alt="" />
+                            <img src="../src/assets/Logo.png" alt="" />
                             <h3 className="font-sen font-bold text-darkGray text-xl">Salty</h3>
                         </span>
 
                         <p className="font-serif text-lightGray w-36 text-base mb-5 md:mb-10">Enjoy the touring with Salty</p>
 
                         <span className="inline-flex">
-                            <img className="pr-3" src="/assets/fbIcon.png" alt="" />
-                            <img className="pr-3" src="/assets/igIcon.png" alt="" />
-                            <img src="/assets/twitterIcon.png" alt="" />
+                            <img className="pr-3" src="../src/assets/fbIcon.png" alt="" />
+                            <img className="pr-3" src="../src/assets/igIcon.png" alt="" />
+                            <img src="../src/assets/twitterIcon.png" alt="" />
                         </span>
                     </div>
 

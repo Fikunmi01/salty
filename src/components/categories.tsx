@@ -12,37 +12,37 @@ const categoryData: Categories[] = [
         id: 1,
         categoryName: 'Beach',
         name: 'Visite',
-        imgUrl: '/assets/category1.png',
+        imgUrl: '../src/assets/category1.png',
     },
     {
         id: 2,
         categoryName: 'Desert',
         name: 'Sahara',
-        imgUrl: '/assets/category2.png',
+        imgUrl: '../src/assets/category2.png',
     },
     {
         id: 3,
         categoryName: 'Mountain',
         name: 'Mt.Everest',
-        imgUrl: '/assets/category3.png',
+        imgUrl: '../src/assets/category3.png',
     },
     {
         id: 4,
         categoryName: 'Temple',
         name: 'Thailand',
-        imgUrl: '/assets/category4.png',
+        imgUrl: '../src/assets/category4.png',
     },
     {
         id: 5,
         categoryName: 'Tower',
         name: 'Sans Francisco',
-        imgUrl: '/assets/category5.png',
+        imgUrl: '../src/assets/category5.png',
     },
     {
         id: 6,
         categoryName: 'Pyramid',
         name: 'Egypt',
-        imgUrl: '/assets/category6.png',
+        imgUrl: '../src/assets/category6.png',
     },
 ];
 
@@ -71,8 +71,8 @@ export const Category: React.FC = () => {
                 <div className="flex justify-between items-center pb-3">
                     <h1 className="font-serif text-3xl lg:text-5xl text-darkGray font-semibold">Categories</h1>
                     <span className="md:flex gap-x-3 md:gap-x-6 hidden items-center">
-                        <img className='w-10 lg:w-full' src="/assets/arrowLeft.png" alt="" />
-                        <img className='w-10 lg:w-full' src="/assets/arrowRight.png" alt="" />
+                        <img className='w-10 lg:w-full' src="../src/assets/arrowLeft.png" alt="" />
+                        <img className='w-10 lg:w-full' src="../src/assets/arrowRight.png" alt="" />
                     </span>
                 </div>
                 <span>
