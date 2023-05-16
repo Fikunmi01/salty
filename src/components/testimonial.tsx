@@ -1,9 +1,11 @@
+import TestimonialImage from '../assets/imageTestimonial.png' 
+
 export const Testimonial: React.FC = () => {
     return (
         <>
             <div className="flex md:px-6 py-10 flex-col lg:flex lg:px-32 px-3 bg-offWhite md:flex-row md:justify-between md:gap-1 lg:gap-48 lg:pb-20">
                 <div className="w-full justify-center flex">
-                    <img className="md:w-full" src="../src/assets/imageTestimonial.png" alt="" />
+                    <img className="md:w-full" src={TestimonialImage}alt="" />
                 </div>
 
                 <div>
