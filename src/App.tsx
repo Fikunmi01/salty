@@ -17,7 +17,8 @@ function App() {
         <Category />
         <Stories />
         <PopularDestination />
-        <TopDestination destinations={DestinationArray} />
+        {/* <TopDestination destinations={DestinationArray} /> */}
+        <TopDestination/>
         <Testimonial />
         <Footer/>
         

@@ -51,7 +51,8 @@ export const DestinationArray: TopDestinations[] = [
     },
 ]
 
-export const TopDestination: React.FC<{ destinations: TopDestinations[] }> = ({ destinations }) => {
+// export const TopDestination: React.FC<{ destinations: TopDestinations[] }> = ({ destinations }) => {
+    export const TopDestination: React.FC = () => {
     return (
         <>
             <div className="bg-offWhite lg:px-32 md:px-6 lg:pt-20 lg:py-20 py-2">
