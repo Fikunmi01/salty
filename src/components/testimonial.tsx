@@ -36,7 +36,7 @@ export const Testimonial: React.FC = () => {
                             </span>
 
                             <span className="flex gap-3 md:gap-5">
-                                <img src="/assets/arrowleft.png" className="w-10 md:w-full" alt="arrow left" />
+                                <img src="/assets/arrowLeft.png" className="w-10 md:w-full" alt="arrow left" />
                                 <img src="/assets/arrowRight.png" className="w-10 md:w-full" alt="arrow right" />
 
                             </span>
