@@ -1,10 +1,10 @@
-interface TopDestinations {
-    id: number,
-    imgSrc: string,
-    rating: number,
-    Address: string,
-    city: string
-}
+// interface TopDestinations {
+//     id: number,
+//     imgSrc: string,
+//     rating: number,
+//     Address: string,
+//     city: string
+// }
 
 // export const DestinationArray: TopDestinations[] = [
 //     {
