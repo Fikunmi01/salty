@@ -1,11 +1,11 @@
- 
+
 
 export const Testimonial: React.FC = () => {
     return (
         <>
             <div className="flex md:px-6 py-10 flex-col lg:flex lg:px-32 px-3 bg-offWhite md:flex-row md:justify-between md:gap-1 lg:gap-48 lg:pb-20">
                 <div className="w-full justify-center flex">
-                    <img className="md:w-full" src='/imageTestimonial.png'alt="" />
+                    <img className="md:w-full" src="/assets/imageTestimonial.png" alt="" />
                 </div>
 
                 <div>
@@ -20,11 +20,11 @@ export const Testimonial: React.FC = () => {
                         </p>
 
                         <span className="inline-flex">
-                            <img src="../src/assets/starIcon.png" alt="rating png" />
-                            <img src="../src/assets/starIcon.png" alt="rating png" />
-                            <img src="../src/assets/starIcon.png" alt="rating png" />
-                            <img src="../src/assets/starIcon.png" alt="rating png" />
-                            <img src="../src/assets/starIcon.png" alt="rating png" />
+                            <img src="/assets/starIcon.png" alt="rating png" />
+                            <img src="/assets/starIcon.png" alt="rating png" />
+                            <img src="/assets/starIcon.png" alt="rating png" />
+                            <img src="/assets/starIcon.png" alt="rating png" />
+                            <img src="/assets/starIcon.png" alt="rating png" />
                         </span>
 
                         <div className="flex justify-between items-center">
@@ -36,8 +36,8 @@ export const Testimonial: React.FC = () => {
                             </span>
 
                             <span className="flex gap-3 md:gap-5">
-                                <img src="../src/assets/arrowleft.png" className="w-10 md:w-full" alt="arrow left" />
-                                <img src="../src/assets/arrowRight.png" className="w-10 md:w-full" alt="arrow right" />
+                                <img src="/assets/arrowleft.png" className="w-10 md:w-full" alt="arrow left" />
+                                <img src="/assets/arrowRight.png" className="w-10 md:w-full" alt="arrow right" />
 
                             </span>
 
