@@ -6,50 +6,50 @@ interface TopDestinations {
     city: string
 }
 
-export const DestinationArray: TopDestinations[] = [
-    {
-        id: 1,
-        imgSrc: "../src/assets/Rectangle4389.png",
-        rating: 3.5,
-        Address: "Vietnam",
-        city: "Worefall"
-    },
-    {
-        id: 2,
-        imgSrc: "../src/assets/Rectangle4390.png",
-        rating: 3.5,
-        Address: "Vietnam",
-        city: "Worefall"
-    },
-    {
-        id: 3,
-        imgSrc: "../src/assets/Rectangle4391.png",
-        rating: 3.5,
-        Address: "Vietnam",
-        city: "Worefall"
-    },
-    {
-        id: 4,
-        imgSrc: "../src/assets/Rectangle4392.png",
-        rating: 3.5,
-        Address: "Vietnam",
-        city: "Worefall"
-    },
-    {
-        id: 5,
-        imgSrc: "../src/assets/Rectangle4394.png",
-        rating: 3.5,
-        Address: "Vietnam",
-        city: "Worerfall"
-    },
-    {
-        id: 6,
-        imgSrc: "../src/assets/Rectangle4395.png",
-        rating: 3.5,
-        Address: "Vietnam",
-        city: "Worerfall"
-    },
-]
+// export const DestinationArray: TopDestinations[] = [
+//     {
+//         id: 1,
+//         imgSrc: "../src/assets/Rectangle4389.png",
+//         rating: 3.5,
+//         Address: "Vietnam",
+//         city: "Worefall"
+//     },
+//     {
+//         id: 2,
+//         imgSrc: "../src/assets/Rectangle4390.png",
+//         rating: 3.5,
+//         Address: "Vietnam",
+//         city: "Worefall"
+//     },
+//     {
+//         id: 3,
+//         imgSrc: "../src/assets/Rectangle4391.png",
+//         rating: 3.5,
+//         Address: "Vietnam",
+//         city: "Worefall"
+//     },
+//     {
+//         id: 4,
+//         imgSrc: "../src/assets/Rectangle4392.png",
+//         rating: 3.5,
+//         Address: "Vietnam",
+//         city: "Worefall"
+//     },
+//     {
+//         id: 5,
+//         imgSrc: "../src/assets/Rectangle4394.png",
+//         rating: 3.5,
+//         Address: "Vietnam",
+//         city: "Worerfall"
+//     },
+//     {
+//         id: 6,
+//         imgSrc: "../src/assets/Rectangle4395.png",
+//         rating: 3.5,
+//         Address: "Vietnam",
+//         city: "Worerfall"
+//     },
+// ]
 
 // export const TopDestination: React.FC<{ destinations: TopDestinations[] }> = ({ destinations }) => {
     export const TopDestination: React.FC = () => {
